@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="flex w-full h-24 shadow-md bg-green-600 rounded-b-md justify-between">
       <figure className="max-w-max h-24 flex justify-center items-center">
-        <Link to="/">
+        <Link to="Healthy-food/">
           <img
             src={logo}
             alt="Healthy Food"
@@ -16,25 +16,25 @@ function Navbar() {
       </figure>
       <ul className="hidden lg:flex w-full h-full items-center justify-evenly text-lg font-menu text-neutral-200 ">
         <li className="nav-li">
-          <Link to="/lunes">Lunes</Link>
+          <Link to="Healthy-food/lunes">Lunes</Link>
         </li>
         <li className="nav-li">
-          <Link to="/martes">Martes</Link>
+          <Link to="/Healthy-food/martes">Martes</Link>
         </li>
         <li className="nav-li">
-          <Link to="/miercoles">Miércoles</Link>
+          <Link to="/Healthy-food/miercoles">Miércoles</Link>
         </li>
         <li className="nav-li">
-          <Link to="/jueves">Jueves</Link>
+          <Link to="/Healthy-food/jueves">Jueves</Link>
         </li>
         <li className="nav-li">
-          <Link to="/viernes">Viernes</Link>
+          <Link to="/Healthy-food/viernes">Viernes</Link>
         </li>
         <li className="nav-li">
-          <Link to="/sabado">Sábado</Link>
+          <Link to="/Healthy-food/sabado">Sábado</Link>
         </li>
         <li className="nav-li">
-          <Link to="/domingo">Domingo</Link>
+          <Link to="/Healthy-food/domingo">Domingo</Link>
         </li>
       </ul>
       <button onClick={()=> setMenuOpen(!isMenuOpen)} className="flex lg:hidden h-full justify-center items-center p-5">
@@ -68,25 +68,25 @@ function Navbar() {
       </button>
       <ul className={`${isMenuOpen ? 'top-24': '-top-96 ' }  flex lg:hidden flex-col absolute transition-all duration-150 z-20 bg-slate-100 w-full justify-center items-center gap-2 p-5 rounded-b-lg shadow-lg`}>
         <li className="nav-li">
-          <Link to="/lunes">Lunes</Link>
+          <Link to="/Healthy-food/lunes">Lunes</Link>
         </li>
         <li className="nav-li">
-          <Link to="/martes">Martes</Link>
+          <Link to="/Healthy-food/martes">Martes</Link>
         </li>
         <li className="nav-li">
-          <Link to="/miercoles">Miércoles</Link>
+          <Link to="/Healthy-food/miercoles">Miércoles</Link>
         </li>
         <li className="nav-li">
-          <Link to="/jueves">Jueves</Link>
+          <Link to="/Healthy-food/jueves">Jueves</Link>
         </li>
         <li className="nav-li">
-          <Link to="/viernes">Viernes</Link>
+          <Link to="/Healthy-food/viernes">Viernes</Link>
         </li>
         <li className="nav-li">
-          <Link to="/sabado">Sábado</Link>
+          <Link to="/Healthy-food/sabado">Sábado</Link>
         </li>
         <li className="nav-li">
-          <Link to="/domingo">Domingo</Link>
+          <Link to="/Healthy-food/domingo">Domingo</Link>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.nav-li, .footer-a {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-li::after, .footer-a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(229, 229, 229);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.footer-a::after {
+  height: 2px;
+}
+
+.nav-li:hover:after, .footer-a:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.img-header {
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 12% 50%, 0% 0%);
+}
+
+.actualizacionEstado {
+  animation-name: actualizacionEstado;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+@keyframes actualizacionEstado {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0;
+  }
+}

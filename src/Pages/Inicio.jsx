@@ -1,6 +1,15 @@
+import Participante from "../Components/Participante";
 import Tabla from "../Components/Tabla";
 import img_header from "./../assets/comida-header.jpg";
 import Footer from "./../Components/Footer";
+import Andrea_Jaraba from "./../assets/Andrea-Jaraba.png";
+import Kamila_Cardenas from "./../assets/Kamila-Cardenas.png";
+import Kiara_Gomez from "./../assets/Kiara-Gomez.png";
+import Valentina_Suarez from "./../assets/Valentina-Suarez.png";
+import Ashley_Marin from "./../assets/Ashley-Marin.png";
+import Ximena_Sanchez from "./../assets/Ximena-Sanchez.png";
+import Cesar_Bolaño from "./../assets/Cesar-Bolaño.png";
+
 const data = [
   {
     category: "Frutas (100gr)",
@@ -82,7 +91,7 @@ const data = [
 function Inicio() {
   return (
     <>
-      <main className="flex w-full h-auto flex-col font-comun min-h-screen">
+      <main className="flex w-full h-auto flex-col font-comun min-h-screen actualizacionEstado">
         <header className="flex flex-col-reverse lg:flex-row w-full lg:h-72 h-auto shadow-lg rounded-xl">
           <article className="flex justify-center items-center lg:w-[60%]">
             <p className="text-lg py-4 lg:px-8 px-4">
@@ -107,11 +116,11 @@ function Inicio() {
         <section className="w-full flex flex-col justify-center items-center h-full my-3">
           <article className="p-12">
             <p className="text-center">
-              En Healthy Food, nos apasiona transformar la hora de la merienda en
-              una experiencia divertida y nutritiva. Nuestra misión es ofrecer
-              ideas frescas y equilibradas que no solo satisfagan los paladares
-              exigentes de los niños, sino que también promuevan un crecimiento
-              saludable y un desarrollo óptimo. <br />
+              En Healthy Food, nos apasiona transformar la hora de la merienda
+              en una experiencia divertida y nutritiva. Nuestra misión es
+              ofrecer ideas frescas y equilibradas que no solo satisfagan los
+              paladares exigentes de los niños, sino que también promuevan un
+              crecimiento saludable y un desarrollo óptimo. <br />
               Desde opciones de snacks llenos de energía hasta recetas
               ingeniosas que involucran a los niños en la preparación, aquí
               encontrarás todo lo que necesitas para hacer de la merienda un
@@ -151,6 +160,48 @@ function Inicio() {
               </div>
               {/* Tabla */}
               <Tabla data={data} />
+            </div>
+          </article>
+          <article className="flex flex-col w-full">
+            <h2 className="text-xl font-semibold text-center bg-green-500 flex w-full items-center justify-center p-5 shadow-xl rounded-b-lg mb-5">
+              Participantes del proyecto.
+            </h2>
+            <div className="flex flex-wrap justify-center items-center gap-4 p-5">
+              <Participante
+                img={Andrea_Jaraba}
+                nombre="Andrea Jaraba"
+                cargo="CEO"
+              />
+              <Participante
+                img={Kamila_Cardenas}
+                nombre="Kamilia Cardenas"
+                cargo="Gerente administrativa"
+              />
+              <Participante
+                img={Kiara_Gomez}
+                nombre="Kiara Gomez"
+                cargo="Diseño gráfico"
+              />
+              <Participante
+                img={Valentina_Suarez}
+                nombre="Valentina Suarez"
+                cargo="Gerente empresarial"
+              />
+              <Participante
+                img={Ashley_Marin}
+                nombre="Ashley Marin"
+                cargo="Marketing"
+              />
+              <Participante
+                img={Ximena_Sanchez}
+                nombre="Ximena Sanchez"
+                cargo="Marketing"
+              />
+              <Participante
+                img={Cesar_Bolaño}
+                nombre="Cesar Bolaño"
+                cargo="Mentor"
+              />
             </div>
           </article>
         </section>

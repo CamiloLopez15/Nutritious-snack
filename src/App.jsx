@@ -18,7 +18,7 @@ function App() {
       <Routes>
           <Route path="/Healthy-food/" element={<Inicio />} />
           <Route
-            path="/Healthy-food//lunes"
+            path="/Healthy-food/lunes"
             element={<Lunes />}
           />
           <Route

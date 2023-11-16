@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="flex w-full h-24 shadow-md bg-green-600 rounded-b-md justify-between">
       <figure className="max-w-max h-24 flex justify-center items-center">
-        <Link to="Healthy-food/">
+        <Link to="/Healthy-food/">
           <img
             src={logo}
             alt="Healthy Food"
@@ -16,7 +16,7 @@ function Navbar() {
       </figure>
       <ul className="hidden lg:flex w-full h-full items-center justify-evenly text-lg font-menu text-neutral-200 ">
         <li className="nav-li">
-          <Link to="Healthy-food/lunes">Lunes</Link>
+          <Link to="/Healthy-food/lunes">Lunes</Link>
         </li>
         <li className="nav-li">
           <Link to="/Healthy-food/martes">Martes</Link>

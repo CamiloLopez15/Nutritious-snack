@@ -86,11 +86,11 @@ function Inicio() {
         <header className="flex flex-col-reverse lg:flex-row w-full lg:h-72 h-auto shadow-lg rounded-xl">
           <article className="flex justify-center items-center lg:w-[60%]">
             <p className="text-lg py-4 lg:px-8 px-4">
-              <b className="text-green-600">¡Bienvenidos a Health Food,</b> tu
+              <b className="text-green-600">¡Bienvenidos a Healthy Food,</b> tu
               fuente de inspiración para meriendas saludables para niños! En un
               mundo donde la nutrición es clave para el desarrollo de los más
               pequeños, entendemos la importancia de proporcionar opciones
-              deliciosas y nutritivas que los niños adoren. Health Food es el
+              deliciosas y nutritivas que los niños adoren. Healthy Food es el
               destino ideal para padres preocupados por la salud de sus hijos,
               donde un menu para cada día de la semana el cual fomentará hábitos
               <b className="text-green-600"> alimenticios positivos.</b>
@@ -107,7 +107,7 @@ function Inicio() {
         <section className="w-full flex flex-col justify-center items-center h-full my-3">
           <article className="p-12">
             <p className="text-center">
-              En Health Food, nos apasiona transformar la hora de la merienda en
+              En Healthy Food, nos apasiona transformar la hora de la merienda en
               una experiencia divertida y nutritiva. Nuestra misión es ofrecer
               ideas frescas y equilibradas que no solo satisfagan los paladares
               exigentes de los niños, sino que también promuevan un crecimiento

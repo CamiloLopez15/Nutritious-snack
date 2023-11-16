@@ -9,7 +9,7 @@ function Navbar() {
         <Link to="/">
           <img
             src={logo}
-            alt="Health Food"
+            alt="Healthy Food"
             className="w-auto h-24 rounded-br-full rounded-tr-full"
           />
         </Link>

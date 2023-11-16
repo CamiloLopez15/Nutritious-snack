@@ -1,8 +1,4 @@
-# React + Vite
+# Health food
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este es un proyecto de emprendimiento de mi colegio, el cual, le entrega una serie de menús a los padres de familia para que puedan dar una merienda sana y saludables a sus hijos.
+Este proyecto fue realizado con Vitejs, React y Tailwind.

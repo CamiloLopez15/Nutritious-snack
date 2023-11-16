@@ -16,33 +16,33 @@ function App() {
     <>
       <Navbar />
       <Routes>
-          <Route path="/" element={<Inicio />} />
+          <Route path="Healthy-food/" element={<Inicio />} />
           <Route
             path="/lunes"
             element={<Lunes />}
           />
           <Route
-            path="/martes"
+            path="Healthy-food/martes"
             element={<Martes />}
           />
           <Route
-            path="/miercoles"
+            path="Healthy-food/miercoles"
             element={<Miercoles />}
           />
           <Route
-            path="/jueves"
+            path="Healthy-food/jueves"
             element={<Jueves />}
           />
           <Route
-            path="/viernes"
+            path="Healthy-food/viernes"
             element={<Viernes />}
           />
           <Route
-            path="/sabado"
+            path="Healthy-food/sabado"
             element={<Sabado />}
           />
           <Route
-            path="/domingo"
+            path="Healthy-food/domingo"
             element={<Domingo />}
           />
         </Routes>
